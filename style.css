@@ -1,0 +1,298 @@
+body{
+    margin: 50px;
+    background-image: linear-gradient(110deg, rgba(249, 56, 101, 0.9), rgba(109, 71, 217,0.9)),url("Images/topography.jpg");
+    /* background-image: url(Images/taco1.jpg); */
+}
+
+
+.nav-button{
+    background-color: #ffc600;
+    margin-right: 0.8%;
+    /* padding: 0 17%; */
+    text-align: center;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.tog-button{
+    background-color: #ffc600;
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+}
+.top{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+ #ul_top_hypers li{
+    display: inline;
+} */
+#ul_top_hypers li {
+    float: right;
+}
+.nav-link{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    width: 17.9vw;
+    text-align: center;
+
+}
+
+.taco{
+    background-color: #ffc600;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    min-height: 190px;
+    margin-bottom: 18px;
+}
+
+.kombuca{
+    background-color: #ffc600;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    min-height: 190px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    /* padding-top: 10px; */
+}
+
+
+.taco_image{
+    background-image: url("Images/taco1.jpg");
+    background-size: cover;
+    min-height: 400px;
+    /* margin-right: 10px; */
+    margin-bottom: 20px;
+    /* width: 650px; */
+}
+
+.middle{
+    margin-top: 30px;
+}
+
+.price{
+    font-size: 60px;
+    font-weight: 300;
+    position: relative;
+    top: 50px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.terry{
+    background-color: #ffc600;
+    width: 285px;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    height:50px;
+}
+.pretty{
+    background-color: #ffc600;
+    width: 168px;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    height: 30px;
+    padding: 1px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.reservation{
+    /* padding-left: 10%;
+    padding-right: 21%; */
+}
+
+.picture{
+    /* margin-right: 5px; */
+    /* height: 180px; */
+    padding-top: 10px;
+    text-align: center;
+    /* width: 80%; */
+    /* margin-left: 5px; */
+    /* background-color: white; */
+}
+    
+
+.option{
+    display: block;
+    font-size: 1.17em;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.icon{
+    font-size: 50px;
+}
+
+.statement{
+    font-size: 15px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.5);
+}
+
+.taco_picture{
+    margin-left: 0px;
+    /* margin-right: 10px; */
+}
+
+.feature{
+    height: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    padding: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+/* 
+.feature-image{
+    align-items: center;
+    justify-content: center;
+
+    
+} */
+img .feature-image1{
+    max-width: 100%;
+
+}
+.feature-taco{
+    font-weight: bold;
+    /* padding-left:10%; */
+    padding-top: 7%;
+    height: auto;
+    /* position: relative;
+    top: 30%; */
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.heading{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.feature-p{
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+.feaure-button{
+    background-color: #ffc600;
+    text-align: center;
+    padding: 5px 20px;
+    border: none;
+}
+
+.line{
+    /* background-color: #ffc600; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+.left{
+    margin-top: 10px;
+    background: linear-gradient(to right, rgba(255,198,0,0), rgba(255,198,0,1));
+    max-height: 50%;
+
+}
+.right{
+    margin-top: 10px;
+    max-height: 50%;
+    background: linear-gradient(to left, rgba(255,198,0,0), rgba(255,198,0,1)); 
+}
+
+.gallary img{
+    width:100% ;
+    
+}
+.gallary-photo{
+    /* margin-right: 0px;
+    width: 103%;
+    margin-bottom: 20px; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+ 
+}
+img{
+    width: 220px;
+}
+.gallary-photos{
+    margin-right: 0px;
+    
+}
+.middle-gallery{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    
+}
+.taco_picture{
+    text-align: center;
+    background-color: white;
+    padding:10px;
+    border: 1px solid white;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+
+/* .item1{
+    grid-area: item1;
+    background-image: url("Images/taco1.jpg");
+    background-size: cover;
+    min-height: 400px;
+    min-width: 600px;
+    /*display:flex;*/
+    
+/* }
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.middle{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-areas: "item1 item1 item1 item2 item2"
+    "item1 item1 item1 item3 item3";
+    /* grid-template-columns: repeat(auto-fill, [c0l-start] 250px [col-end]) */
+    /*background-color: #2196F3;*/
+
+/* 
+}
+.middle > div {
+  background-color:#ffc600;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+ */
+ */
